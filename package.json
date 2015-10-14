@@ -1,6 +1,0 @@
-{
-  "name":"flask",
-  "scripts":{
-    "start":"python server/server.py"
-  }
-}
