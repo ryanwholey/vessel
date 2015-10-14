@@ -3,6 +3,9 @@ from flask import Flask, request, session, g, redirect, url_for, \
 
 app = Flask(__name__);
 
+@app.route('/')
+def greet():
+  return 'Hello human!'
 
 @app.route('/<username>')
 def hello(username):
